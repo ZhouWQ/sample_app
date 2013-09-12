@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <title>Ruby | <%= yield(:title) %></title>
+     <title>Ruby | <%=yield(:title) %></title>
   </head>
   <body>
     <h1>Sample App</h1>
