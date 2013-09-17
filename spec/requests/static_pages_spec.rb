@@ -8,7 +8,7 @@ describe "StaticPages" do
 
     it { should have_content('Sample App') }
 
-    it { should have_title('Ruby') }
+    it { should have_title(full_title('')) }
 
     it { should_not  have_title('| Home') }
 
@@ -25,7 +25,7 @@ describe "StaticPages" do
     before { visit about_path }
 
     it { should have_content('about') }
-    it { should have_title('Ruby | about') }
+    it { should have_title('About') }
   end
 
 
