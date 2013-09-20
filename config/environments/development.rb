@@ -27,5 +27,5 @@ SampleApp::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.force_ssl = true
+  
 end
